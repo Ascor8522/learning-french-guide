@@ -21,9 +21,9 @@
 		"jsx": "react-jsx",
 		"jsxImportSource": "preact",
 		"paths": {
-			"@components/*": ["src/components/*"],
-			"@content/*": ["src/content/*"],
-			"@pages/*": ["src/pages/*"],
+			"@components/*": ["./src/components/*"],
+			"@content/*": ["./src/content/*"],
+			"@pages/*": ["./src/pages/*"],
 		}
 	},
 	"include": [
