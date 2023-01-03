@@ -19,10 +19,15 @@
 		"isolatedModules": true,
 		"noEmit": true,
 		"jsx": "react-jsx",
-		"jsxImportSource": "preact"
+		"jsxImportSource": "preact",
+		"paths": {
+			"@components/*": ["src/components/*"],
+			"@content/*": ["src/content/*"],
+			"@pages/*": ["src/pages/*"],
+		}
 	},
 	"include": [
-		"src"
+		"src",
 	],
 	"references": [
 		{

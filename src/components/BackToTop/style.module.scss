@@ -1,0 +1,19 @@
+.backToTop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 100;
+	/*
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	visibility: hidden;
+	transform: translateY(100px);
+	*/
+	a {
+		color: red;
+	}
+}
+
+.top {
+	visibility: hidden;
+}
